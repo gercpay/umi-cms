@@ -1,7 +1,7 @@
 <?php /** @var umiTemplaterPHP $this */ ?>
 <?php /** @var array $variables */ ?>
 
-<form action="https://api.gercpay.com.ua/" method="post" id="gercpay_form">
+<form action="https://api.gercpay.com.ua/api/" method="post" id="gercpay_form">
     <input type="hidden" value="<?= $variables['purchasing']['operation'] ?>"    name="operation">
     <input type="hidden" value="<?= $variables['purchasing']['merchant_id'] ?>"  name="merchant_id">
     <input type="hidden" value="<?= $variables['purchasing']['amount'] ?>"       name="amount">
